@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* Reset */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+ h1,h2,h3 {
+      padding-bottom: 20px;
+      font-size: 25px;
+      line-height: 1.2em;
+}
+p{
+      padding: 10px 0;
+      font-size: 20px;
+      line-height: 1.2em;
+}
+.btn {
+      display: inline-block;
+      font: 20px;
+      color: #fff;
+      background: #F5117B;
+      padding: 18px 20px;
+      border: none;
+      cursor: pointer;
+}
+
+.btn:hover {
+      background-color: #f7c08a;
+      color: #333;
+}
+
+.btn-light {
+      background:#f4f4f4;
+      color: #333;
+}
+    .hero-image {
+      background-image: url("/img/banner.jpg");
+      background-color: #cccccc;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+/* @media only screen and (min-width:1025px){
+      .paragraph{
+            column-count: 2;
+            column-gap: 100px;
+            column-rule: 2px dotted black;
+           text-align: end;
+      }
+} */
+
+
+    .profiles {
+          display: flex;
+          justify-content: space-around;
+          margin: 20px 80px;
+    }
+    .profile{
+          flex-basis: 260px;
+    }
+    .profile .profile-img{
+          height: 260px;
+          width: 360px;
+          border-radius: 50%;
+          filter:grayscale(100%);
+          cursor: pointer;
+         transition: 400ms;
+       }
+     .profile:hover .profile-img {
+           filter: grayscale(0);
+     }
+
+ #main-footer {
+      text-align: center;
+      background: #444;
+      color: #fff;
+      padding: 5px;
+}
+#main-footer p {
+      text-align: end;
+      color: pink;
+}
+
+p{margin:0.9em 0em;}
+.multicolumns{
+      column-count: 2;
+      column-gap: 30px;
+      column-rule: 1px outset black;
+      text-align: end;
+}
+header h1 {
+    text-align: center;
+}
+.p-1 {
+      text-align: center;
+}

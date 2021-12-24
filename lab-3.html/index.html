@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lab-3</title>
+
+      <!-- Холбоосууд -->
+     <link rel="stylesheet" href="/lab-3.html/css/style.css">
+     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<style>
+      *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            box-sizing: border-box;
+      }
+
+
+/* Үндсэн стайлууд */
+html,body {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7em;
+}
+
+.btn {
+      display: inline-block;
+      font: 16px;
+      color: #fff;
+      background: #333;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+}
+.btn:hover {
+      background-color: #f7c08a;
+      color: #333;
+}
+
+.btn-light {
+      background:#f4f4f4;
+      color: #333;
+}
+
+.bg-dark {
+      background: #333;
+      color: #fff;
+} 
+
+ .bg-light { 
+      background: #f4f4f4;
+      color: #333;
+}
+
+#body{
+background-color: blue;
+}
+</style>
+<body>
+      <thead>
+            <table border="1">
+                  <tr>
+                        <td colspan="2" bgcolor="orange">
+                              <h2>Sign up</h2>
+                        </td>
+                  </tr>
+            </thead>
+
+                  <tbody id="body">
+                        <tr>
+                              <td colspan="1" width="150" style="color:black" align="right">Firtst name</td>
+                              <td colspan="1" width="250">
+                                    <input type="text" name="" id="name" placeholder="Enter First name.....">
+                              </td>
+                              <tr>
+                                    <td colspan="1" width="150" style="color:black" align="right">Last name</td>
+                                    <td colspan="1">
+                                          <input type="text" name="" id="name" placeholder="Enter Last name.....">
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td colspan="1" width="150" style="color:black" align="right">Password</td>
+                                    <td colspan="1">
+                                          
+                                          <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+                                    </td>
+                              </tr>
+                              <tr>
+                                    <td colspan="1" width="150" style="color:black" align="right">Date of Birth</td>
+                                    <td colspan="1">
+                                          <input type="date" id="birthday" name="birthday">
+                                    </td>
+                              </tr>
+                 <tr>
+                  <td colspan="1" width="150" style="color:black" align="right">Gender</td>
+                              <td colspan="1">
+                                    <label for="male">Male</label>
+                                    <input type="radio" name="gender" id="male" value="male" checked>
+                                    <label for="female">Female</label>
+                                    <input type="radio" name="gender" id="female" value="female">
+                              </td>
+                        </tr>
+                        <tr>
+                              <td colspan="1" width="150" style="color:black" align="right">Conutry</td>
+                              <td colspan="1">
+                                    <select id="Country" name="Countrylist" form="Countryform">
+                                          <option value="Mongolia">Mongolia</option>
+                                          <option value="America">America</option>
+                                          <option value="Russial">Russia</option>
+                                          <option value="Japan">Japan</option>
+                                    </select>
+                              </td>
+                        </tr>
+                        <tr>
+                              <td colspan="1" width="150" style="color:black" align="right">Comment</td>
+                              <td colspan="1">
+                                    <textarea name="message"id="message" placeholder="Type your comment here....."></textarea>
+                              </div>
+
+                        </form>
+                  </td>
+            </tr>
+      </tbody>
+
+      <tfoot>
+                  <tr bgcolor="red">
+                        <td colspan="2" align="center">
+                              <input type="checkbox" name="favcolor" id="green" value="green">
+                              <label for="green">I agree to the Term of use</label>
+                        </td>
+                  </tr>
+                  <tr bgcolor="orange">
+                        <td colspan="2" align="right">
+                              <button type="submit" class="btn">Submit</button><button type="submit" class="btn">Cancel</button>
+                        </td>
+                  </tr>
+      </tfoot>
+      </table>      
+</body>
+</html>

@@ -1,0 +1,129 @@
+  /* visiblity:hidden  butsaj garj irehdee visible */
+  /* display:none butsaj garj irehdee none */
+  /* #topmenu>li{
+      display:inline-block */
+/* li ul{
+    position:absolute
+    display:none */
+/* #topmenu>li:hover ul{
+    display:block
+} */
+
+body{ margin:0; font-family:'tahoma'}
+
+nav {
+  margin:0 auto;
+  width:100%;
+  height:auto;
+  display:inline-block;
+  background:burlywood;
+}
+
+nav ul {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  float:left;
+  display:inline-block;
+}
+
+nav ul li {
+  position:relative;
+  margin:0 20px 0 0;
+  float:left;
+  display:inline-block;
+}
+
+li > a:after { content: ' »'; } 
+
+li > a:only-child:after { content: ''; }
+
+nav ul li a {
+  padding:20px;
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+}
+
+nav ul li a:hover {
+  opacity:0.5;
+}
+
+nav ul li ul {
+  display:none;
+  position:absolute;
+  left:0;
+  background:burlywood;
+  float:left;
+}
+
+nav ul li ul li {
+  width:100%;
+  border-bottom:1px solid rgba(255,255,255,.3);
+}
+
+nav ul li:hover ul {
+  display:block;
+}
+
+div.out {
+    background-color: green;
+    position: relative;
+    width:98%;
+    height: 65rem;
+    border: 25px solid #333;
+  } 
+   div.in{
+    position: absolute;
+    background-color: red;
+    bottom: 0px;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  } 
+   /* div.in{
+    position: absolute;
+    background-color: red;
+    top: 10px;
+    right: -40px;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  }
+   div.in{
+    position: absolute;
+    background-color: red;
+    top: -15px;
+    right: 10px;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  }
+  div.in{
+    position: absolute;
+    background-color: red;
+    top: -10px;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  }
+  div.in{
+    position: absolute;
+    background-color: red;
+    top: 0px;
+    right: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  }
+  div.in{
+    position: absolute;
+    background-color: red;
+    bottom: 0px;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+  } */ 

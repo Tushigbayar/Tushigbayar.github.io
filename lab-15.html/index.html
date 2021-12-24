@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Lab-15</title>
+</head>
+<body>
+      <div>
+            <!--Даалгавар-1  -->
+            <button id="btn">Товчлуур дээр дар</button>
+            <p>
+                  Товчлуур дээр <span 
+                  id="display">0</span> удаа дарсан байна
+            </p>
+      </div>
+            
+      <!-- Даалгавар-2 -->
+     
+    <div id="myDiv"> 
+       <span>
+          Hello world
+       </span>
+    </div>
+    <br>
+    <button type="button" onclick="changeStyle()">Томруулах</button>
+<br>
+    <!-- Даалгавар-3 -->
+    <br>
+    <table id="myTable" border="1"> 
+</table><form> 
+<input type="button" onclick="createTable()" value="Хүснэгт үүсгэх"> 
+
+<!-- Даалгавар-4 -->
+<br><br>
+<form>
+      Эхний тоо : <input type="text" id="firstNumber" /><br>
+      Хоёрдох тоо: <input type="text" id="secondNumber" /><br>
+      <input type="button" onClick="multiplyBy()" Value="Үржих" />
+      <input type="button" onClick="divideBy()" Value="Хуваах" />
+      </form>
+      <p>Хариу нь : <br>
+      <span id = "result"></span>
+      </p>
+
+
+<!-- Даалгавар-5 -->
+      <table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Town</th>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Sofia</td>
+    </tr>
+    <tr>
+        <td>Nick</td>
+        <td>Varna</td>
+    </tr>
+    <tr>
+        <td>Didi</td>
+        <td>Ruse</td>
+    </tr>
+    <tr>
+        <td>Tedy</td>
+        <td>Varna</td>
+    </tr>
+</table>
+<button onclick="colorize()">Өнгийг өөрчлөх</button>
+
+<!-- Даалгавар-6 -->
+<br> <br>
+
+Item:
+<input type="text" name="item" id="item" />
+<br />
+<br />Price: 
+<input type="text" name="price" id="price" />
+<br /><br />
+<input type="button" value="Insert" onClick="addRow()" id="add">
+<br /><br />
+<table id="table" border="1">
+<thead id="table-head">
+      <tr>
+    <th>Item</th>
+    <th>Price</th>
+</tr>
+</thead>
+<tbody id="table-body">
+</tbody>
+</table>
+      <script src="index.js"></script>
+     
+</body>
+</html>

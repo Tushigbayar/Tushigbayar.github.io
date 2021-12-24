@@ -1,0 +1,32 @@
+body {
+      background-color: #333;
+}
+h1 {
+      font-family: sans-serif;
+      transition: 0.4s;
+      transition-timing-function: ease-in-out;
+}
+
+p{
+      font-size: 25px;
+}
+
+.container {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+}
+
+button {
+      margin-top: 8vh;
+      width: 80px;
+      height: 80px;
+      background: blue;
+      color: orange;
+      margin-right: 50px;
+    border: none;
+    font-size: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,132 @@
+html{
+      overflow-x: hidden;
+}
+header{
+      margin: 0;
+      padding: 0;
+      text-decoration: none;
+      background-color:#333 ;
+}
+.text-shadow {
+      text-align: center;
+      justify-content: center;
+      padding: 10px 0;
+      color:#fff ;
+}
+.text-shadow h1 {
+      text-shadow: 2px 5px 5px #00BFFF;
+}
+#features {
+      padding: 10px 10px;
+      text-align: center;
+      width: 100%;
+}
+p{
+      font-size:30px ;
+      color: #fff;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+}
+.round-1{
+      border: 3px solid black;
+      background: #00BFFF;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      border-radius: 10px;
+      margin-bottom: 10px 10px;
+      float: left;
+     
+}
+.round-2{
+      margin: 10px 10px;
+      border: 3px solid black;
+      background: red;
+      width: 200px;
+      height: 200px;
+      border-radius: 50px;
+      float: left;
+      text-align: center;
+      
+}
+.round-3{
+      border: 3px solid black;
+      background: blueviolet;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      border-radius: 100px;
+      margin: 10px 10px;
+       float: left;
+}
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+      }
+         to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+
+.test {
+      height: 200px;
+      width: 200px;
+      border: 5px solid #333;
+      float: right;
+      margin:10px 10px;
+}
+div#first {
+      background-color:blue;
+      box-shadow: 15px 15px 20px dimgray;
+}
+div#second {
+      background-color:red;
+      box-shadow: -15px -15px 30px dimgray;
+}
+div#third{
+      background-color:green;
+      box-shadow: 15px 15px 10px dimgray;
+}
+.content {
+      padding: 100px 0px;
+}
+
+.content .gradient {
+      width: 500px;
+      height: 500px;
+      border: 3px solid #333;
+      padding: 20px 0px ;
+}
+div#angle {
+      float: left;
+      border: 3px solid purple;
+     background: linear-gradient(
+           45deg, red 15%, orange 25%,  yellow 35%, green 45%, blue 55%, indigo 65%, purple 75%
+     );
+}
+div#circle {
+      background: radial-gradient(circle, blue, yellow, red);
+      float: right;
+      border: 3px solid purple;
+}
+
+/* .box-skew .textbox {
+      margin-left: 75px;
+      background: lightgreen;
+      height: 100px;
+      width: 200px;
+      padding: 25px 0;
+      text-align: center;
+      font-size: 250%;
+      border: 3px solid DarkGreen;
+      border-radius: 15px;
+      transform: skewX(-45deg);
+      animation: ske1w 3s infinite linear;
+}
+@keyframes skew {
+      from { transform: skewX(0deg);}
+      25% {transform: skewX(45deg);}
+      50% {transform: skewX(0);}
+      70% {transform: skewX(-45deg);}
+      to {transform: skewX(0);}
+} */

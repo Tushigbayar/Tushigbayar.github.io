@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../lab-1.html"
+		},
+		{
+			"path": "../../Downloads/langinf"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lab-2.html"
+	}
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"
+   />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+      <script src="app.js"></script>
+      <title>Document</title>
+</head>
+<body>
+      <!-- өнөөдрийн огноог харуулах товч, -->
+      <br>
+      <input type="button" value="Одоогийн он сар өдөр" onclick="printNow()" />
+   <!-- 24 цагийн өмнөх он сар өдөр -->
+<br>
+<input type="button" value="24 цагийн өмнөх он сар өдөр" onclick="printYesterday()" />
+ <!-- 10жилийн өмнөх он сар өдөр -->
+   <br>
+   <input type="button" value="10 жилийн өмнөх он сар өдөр" onclick="printTenYears()" />
+<br>
+   <!-- 7хоногийн өмнөх он сар өдөр -->
+   <input type="button" value="Долоо хоногийн өмнөх сар өдөр" onclick="printOneWeek()" />
+<br>
+     
+<!-- Даалгавар-5 -->
+   <div class="container">
+      <form id="login" onsubmit="process(event)">
+        <p>Утасны дугаар:</p>
+        <input id="phone" type="tel" name="phone" />
+        <input type="submit" class="btn" value="Илгээх" />
+      </form>
+
+      
+
+</body>
+</html>

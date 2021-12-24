@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../lab-7.html"
+		},
+		{
+			"path": "../../../Downloads/Hotel project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lab-5.html"
+	}
+}
